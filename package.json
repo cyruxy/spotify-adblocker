@@ -1,0 +1,31 @@
+{
+  "name": "spotify-adblocker",
+  "version": "1.0.0",
+  "description": "Blocks spotify ads using a MITM proxy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cyruxy/spotify-adblocker.git"
+  },
+  "keywords": [
+    "spotify",
+    "adblock",
+    "windows",
+    "mitm"
+  ],
+  "author": "Checkium",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/cyruxy/spotify-adblocker/issues"
+  },
+  "homepage": "https://github.com/cyruxy/spotify-adblocker#readme",
+  "dependencies": {
+    "spotify-adblocker": "^1.0.0"
+    "colors": "^1.3.3",
+    "http-mitm-proxy": "^0.8.1"
+  }
+}
